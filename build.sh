@@ -14,9 +14,9 @@ run-all() {
   SCRIPTS=(
     # install dependencies
     install-deps
-    build-zlib
+    #build-zlib
     build-x264
-    build-x265
+    #build-x265
     #build-libvpx
     #build-wavpack
     #build-lame
