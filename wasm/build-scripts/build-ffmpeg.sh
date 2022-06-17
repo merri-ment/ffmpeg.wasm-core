@@ -31,7 +31,7 @@ FLAGS=(
   -s EXPORTED_FUNCTIONS="[_main]"  # export main and proxy_main funcs
   -s EXPORTED_RUNTIME_METHODS="[FS, cwrap, ccall, setValue, writeAsciiToMemory]"   # export preamble funcs
   -s INITIAL_MEMORY=33554432                    # 32MB
-  -s MAXIMUM_MEMORY=1073741824                  # 1GB
+  -s MAXIMUM_MEMORY=536608768                   # 512MB  // # 1GB - 1073741824 
   -s ALLOW_MEMORY_GROWTH=1
   --pre-js wasm/src/pre.js
   --post-js wasm/src/post.js
