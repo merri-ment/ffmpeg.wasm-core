@@ -10,7 +10,7 @@ FLAGS=(
   # --enable-zlib           # enable zlib
   --enable-libx264        # enable x264
   # --enable-libx265        # enable x265
-  # --enable-libvpx         # enable libvpx / webm
+  --enable-libvpx         # enable libvpx / webm
   # --enable-libwavpack     # enable libwavpack
   # --enable-libmp3lame     # enable libmp3lame
   # --enable-libfdk-aac     # enable libfdk-aac

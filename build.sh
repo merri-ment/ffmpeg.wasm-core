@@ -17,7 +17,7 @@ run-all() {
     #build-zlib
     build-x264
     #build-x265
-    #build-libvpx
+    build-libvpx
     #build-wavpack
     #build-lame
     #build-fdk-aac
