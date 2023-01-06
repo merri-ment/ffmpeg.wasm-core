@@ -21,6 +21,7 @@ jobs:
       matrix:
         script:
           - build-x264
+          - build-libvpx
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
